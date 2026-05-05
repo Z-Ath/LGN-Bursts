@@ -14,4 +14,6 @@ Code used to:
 
 More details: 
 
-5) CSD analysis completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.html' 
+5) CSD analysis
+completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.html
+Location of layers and the layer V/VI boundary was calculated based on the units within each layer and extracting the location of the most dorsal and ventral unit. - this informed layer boundaries for burst correlation analysis and point of reference to average CSDs across sessions. 
