@@ -15,6 +15,6 @@ Code used to:
 More details: 
 
 **5) CSD analysis**  
-5A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'
+5A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'  
 5B) Channel_layers - assign cortical layers to each probe channel to get the layer IV/V boundary for CSD averaging across sessions + Layer IV sink correlations.  
 5C) CSD sink correlations with Burst (/Tonic) firing. 
