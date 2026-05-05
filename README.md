@@ -1,5 +1,9 @@
 # LGN-Bursts
-Code used to create figures in Atherton et. al., 2026
+Code used to create figures in:
+
+Thalamic Burst Firing Encodes Task-specific Content During Visual Deviance
+Zoe Atherton, Bolin Shen, Logan Becker, Yushun Dong, Carmen Varela
+Florida State University
 
 1) Code used to extract trials and sessions using the Allen-SDK
 2) Code used to extract burst spikes and firing rates (Figure 1)
