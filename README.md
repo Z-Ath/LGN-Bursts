@@ -14,6 +14,7 @@ Code used to:
 
 More details: 
 
-5) CSD analysis
-completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.html
-Location of layers and the layer V/VI boundary was calculated based on the units within each layer and extracting the location of the most dorsal and ventral unit. - this informed layer boundaries for burst correlation analysis and point of reference to average CSDs across sessions. 
+**5) CSD analysis**  
+5A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'
+5B) Channel_layers - assign cortical layers to each probe channel to get the layer IV/V boundary for CSD averaging across sessions + Layer IV sink correlations.  
+5C) CSD sink correlations with Burst (/Tonic) firing. 
