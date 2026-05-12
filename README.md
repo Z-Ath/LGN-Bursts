@@ -17,7 +17,9 @@ More details:
 Population decoding was performed using a linear Support Vector Classifier (SVC27, implemented with LinearSVC (scikit-learn).  
 Classifier performance was evaluated using the area under the receiver operating characteristic curve (ROC-AUC   
 
-**3) Machine learning approach to predict single neuron firing rates** 
+**3) Machine learning approach to predict single neuron firing rates**  
+We used a vision transformer (ViT) model to extract high-dimensional (n = 768) numerical representations (embeddings) of each image, each 768-dimensional embedding was reduced to 6 dimensions via PCA prior to model fitting.  
+We employed XGBoost to model the relationship between image embeddings and neuronal activity. Specifically, for each unique image-change combination, we constructed a trial embedding by concatenating the PCA-reduced familiar and deviant image embeddings, yielding a single 12-dimensional vector capturing the visual content of both stimuli. For each neuron, we trained an independent XGBoost regression model to predict that neuron's firing rate from the trial embeddings, using 5-fold cross-validation.  
 
 **4) CSD analysis**  
 4A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'  
