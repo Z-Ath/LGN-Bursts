@@ -7,14 +7,13 @@ Florida State University
 
 Code used to:  
 1) Extract trials and sessions using the Allen-SDK
-2) Extract burst spikes and firing rates (Figure 1)
-3) Decode GO trial outcome and image ID (Figure 2 a-b)
-4) Create image embeddings and train and test XGBoost models (Figure2 d-g)
-5) Complete CSD analysis and burst rate correlations with sinks (Figure 2h-l)
+2) Decode GO trial outcome and image ID (Figure 2 a-b)
+3) Create image embeddings and train and test XGBoost models (Figure2 d-g)
+4) Complete CSD analysis and burst rate correlations with sinks (Figure 2h-l)
 
 More details: 
 
-**5) CSD analysis**  
-5A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'  
-5B) Channel_layers - assign cortical layers to each probe channel to get the layer IV/V boundary for CSD averaging across sessions + boundaries for layer specific sinks analysis.  
-5C) CSD sink correlations with Burst (/Tonic) firing. 
+**4) CSD analysis**  
+4A) CSD_calculation - completed according to 'https://alleninstitute.github.io/openscope_databook/first-order/current_source_density.htmL'  
+4B) Channel_layers - assign cortical layers to each probe channel to get the layer IV/V boundary for CSD averaging across sessions + boundaries for layer specific sinks analysis.  
+4C) CSD sink correlations with Burst (/Tonic) firing. 
