@@ -21,8 +21,6 @@ from allensdk.brain_observatory.behavior.behavior_project_cache.\
 
 from brain_observatory_utilities.datasets.electrophysiology.receptive_field_mapping import ReceptiveFieldMapping_VBN
 
-#instatiate tool: this will automatically download the small files (manifest and structure jsons)
-
 from typing import List, Tuple
 
 
@@ -314,8 +312,8 @@ session_list = [1048196054, 1053925378, 1063010385, 1064639378, 1065908084,
                 1115356973, 1121607504,  1130349290]
 
 
-# REMOVED - RAW DATA NOT UPLOADED FOR 1120251466, 1122903357, 1086410738
-# ALSO REMOVED Because VISp LFP not available for session X
+# REMOVED - RAW DATA NOT UPLOADED FOR 1120251466, 1122903357
+# ALSO REMOVED Because VISp LFP not available for session 1086410738
 
 
 # ----------------------------------------------------------
