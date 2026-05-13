@@ -1,7 +1,7 @@
 # LGN-Bursts
 Code used to create figures in:
 
-Thalamic Burst Firing Encodes Task-specific Content During Visual Deviance  
+Thalamic Burst Firing Encodes Task-specific Content Following Visual Deviance  
 Zoe Atherton, Bolin Shen, Logan Becker, Yushun Dong, Carmen Varela  
 Florida State University
 
